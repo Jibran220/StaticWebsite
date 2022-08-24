@@ -151,6 +151,7 @@ input:focus, textarea:focus, select:focus {
   position: relative;
   z-index: 2;
   overflow: hidden;
+
 }
 .theme-one-bg {
   background-color: #fff7f8;
@@ -692,7 +693,7 @@ a.btn_download:hover {
    -------- 8.Features area  ------------
    ---------------------------------------- */
 .features-wrap {
-  background: #fff7f8;
+  background: #dad7ec;
   position: relative;
 }
 .single-features {
@@ -996,11 +997,22 @@ a.btn_download:hover {
   height: 100%;
   position: absolute;
   content: "";
-  background-image: url('assets/images/home-one/download_bg.png');
+  background-image: url('assets/images/home-one/istockphoto-1248228405-612x612.jpg');
   background-position: left center;
   background-repeat: no-repeat;
   top: 0;
-  background-size: 100%;
+  background-size: 75%;
+}
+.download-wrap-onee::before {
+  width: 50%;
+  height: 75%;
+  position: absolute;
+  content: "";
+  background-image: url('assets/images/home-one/carla.jpg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  top: 0;
+  background-size: 75%;
 }
 a.btn_theme_one:hover {
     -webkit-transform: translateY(-10px);
@@ -1040,7 +1052,8 @@ a.btn_theme_one.color_one:hover {
   border: none;
 }
 .testimonial-theme-one.section-padding.theme-two-bg {
-    background: #f8fcff;
+  background: #dad7ec;
+ 
 }
 .testimonial-theme-one .nav-item a img {
   border-style: solid;
@@ -1532,7 +1545,8 @@ form .form-group {
   color: #151948;
 }
 .about-app-wrap-two .container .row:nth-child(2n) {
-  margin-top: 130px;
+  margin-top: 10px;
+  background: #dbd6f8;
 }
 .btn_about {
   border-radius: 5px;
@@ -2001,14 +2015,14 @@ a.play_video_btn i {
 .saas-featured .row div:nth-child(2n) .s_icon {
   border-color: rgb(255, 79, 128);
   border-radius: 10px;
-  background-color: rgb(255, 229, 237);
+  background-color: rgb(148, 138, 224);
   color: rgb(255, 79, 128);
 }
 .saas-featured .row div:nth-child(3n) .s_icon {
-  border-color: rgb(128, 83, 246);
+  border-color: rgb(234, 233, 236);
   border-radius: 10px;
   background-color: rgb(227, 220, 245);
-  color: #865bf6;
+  color: #ffffff;
 }
 .single-saas-featured {
   border-style: solid;
@@ -2114,6 +2128,8 @@ a.play_video_btn i {
   font-size: 40px;
   line-height: 1.5;
   margin-top: -14px;
+
+ 
 }
 .single-service-item {
   margin-top: 60px;
@@ -2134,6 +2150,7 @@ a.play_video_btn i {
   background-size: cover;
   background-position: center center;
   position: relative;
+
 }
 .single-funfact-item {
   text-align: center;
@@ -2163,7 +2180,7 @@ a.play_video_btn i {
   opacity: .92;
 }
 .funfact-wrap .section-title-three h2, .funfact-wrap .section-title-three span {
-  color: #fff;
+  color: rgb(221, 214, 214);
 }
 
 /* ------------------------------------------------------------
@@ -2602,6 +2619,7 @@ a.play_video_btn i {
 .comment-form-wrap .contact-form-one form button {
     padding: 10px 40px;
     margin-top: 0px;
+
 }
 .comment-form-wrap .contact-form-one form input {
    height: 50px;
@@ -2805,4 +2823,68 @@ span.form-message.success {
 .dropdown-menu {
     background: #000;
     color: #fff;
+}
+.card,.card-header
+{
+background-color: transparent !important;
+
+
+
+
+border: none !important;
+padding: 0 !important;
+margin-bottom: 20px;
+}
+.card {
+  box-shadow: 0 2px 25px 0 rgba(110, 130 , 208, .18);
+}
+.btn-link{
+width: 100%;
+height: 60px;
+color: #000!important;
+text-align: left!important;
+text-decoration: none !important;
+font-weight: bold;
+}
+.card-body
+ {
+  background-color: #e8eeff;
+ } 
+ .btn-link::after
+ {
+  content: '\2212';
+width: 35px;
+font-size: 25px;
+text-align:center;
+border-radius: 5px;
+right: 15px;
+top:11px;
+position: absolute;
+background:#e8eeff ;
+ }
+ .btn-link.collapsed:after
+ {
+  content: '\002B';
+ }
+ .btn-link:before
+ {
+  content: '';
+  height: 25px;
+  width: 25px;
+position: absolute;
+background: #fff;
+z-index: 1;
+transform:rotate(45deg);
+left:30px;
+top: 46px;
+
+
+ }
+
+.cl{
+  width: 430px;
+  margin-top: 15px;
+}
+.df{
+background: transparent;
 }
